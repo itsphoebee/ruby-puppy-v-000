@@ -9,7 +9,10 @@ def initialize(name)
 end
 
 def self.all
-  @@all
+  @@all.each do |dog|
+    "#{dog}"
+  end
+  end
 end
 
 def self.clear_all
